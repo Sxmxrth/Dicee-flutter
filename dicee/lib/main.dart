@@ -28,7 +28,7 @@ class DicePage extends StatefulWidget {
 
 class _DicePageState extends State<DicePage> {
   var leftClick = 0;
-  var rightClick = 0; //These must be outside the widget build
+  var rightClick = 0; //These must be outside the widget build.
 
   void changeDiceFace() {
     setState(() {
